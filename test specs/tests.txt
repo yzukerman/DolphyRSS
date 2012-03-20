@@ -1,0 +1,22 @@
+
+On app startup
+- If there are no RSS feeds
+-- Tell the user there are no RSS feeds
+- If there are RSS feeds
+-- Load feeds
+--- verify there is a network connection
+--- Load Title, RSS feed title, article title, date
+--- Sort articles by date
+--- display list in a table
+
+Read article
+- Display title
+- Display body
+- If there are links - pop the user to Safari
+
+Options
+- List subscribed RSS feeds
+- Allow edit to remove from the list
+- Allow left swipe to remove from the list
+- Add RSS feed
+-- Verify the URL is a valid RSS feed
